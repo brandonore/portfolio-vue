@@ -1,30 +1,41 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <router-view class="h-full"></router-view>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "CeraRegular", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-
-nav {
-  padding: 30px;
+h1 {
+  font-family: "Montserrat", sans-serif;
 }
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@font-face {
+  font-family: "CeraBlack";
+  src: local("CeraBlack"), url(./fonts/Cera/CeraBlack.otf) format("truetype");
 }
-
-nav a.router-link-exact-active {
-  color: #42b983;
+@font-face {
+  font-family: "CeraBold";
+  src: local("CeraBold"), url(./fonts/Cera/CeraBold.otf) format("truetype");
+}
+@font-face {
+  font-family: "CeraLight";
+  src: local("CeraLight"), url(./fonts/Cera/CeraLight.otf) format("truetype");
+}
+@font-face {
+  font-family: "CeraMedium";
+  src: local("CeraMedium"), url(./fonts/Cera/CeraMedium.otf) format("truetype");
+}
+@font-face {
+  font-family: "CeraRegular";
+  src: local("CeraRegular"),
+    url(./fonts/Cera/CeraRegular.otf) format("truetype");
+}
+@font-face {
+  font-family: "CeraThin";
+  src: local("CeraThin"), url(./fonts/Cera/CeraThin.otf) format("truetype");
 }
 </style>
