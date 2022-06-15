@@ -13,7 +13,7 @@
               <div class="flex items-center justify-between w-full md:w-auto">
                 <div class="-mr-2 flex items-center md:hidden">
                   <PopoverButton
-                    class="bg-slate-50 rounded-md p-2 inline-flex items-center justify-center text-slate-400 hover:text-teal-400 hover:bg-slate-100 transition-all ease-linear"
+                    class="bg-slate-50 rounded-md p-2 inline-flex items-center justify-center text-slate-400 hover:text-primary hover:bg-slate-100 transition-all ease-linear"
                   >
                     <span class="sr-only">Open main menu</span>
                     <MenuIcon class="h-6 w-6" aria-hidden="true" />
@@ -29,7 +29,7 @@
                 v-for="item in navigation"
                 :key="item.name"
                 :href="item.href"
-                class="font-medium text-slate-500 hover:text-teal-400 ease-linear transition-all"
+                class="font-medium text-slate-500 hover:text-primary ease-linear transition-all"
                 >{{ item.name }}</a
               >
             </div>
@@ -54,7 +54,7 @@
               <div class="px-5 pt-4 flex items-center justify-between">
                 <div class="-mr-2">
                   <PopoverButton
-                    class="bg-white rounded-md p-2 inline-flex items-center justify-center text-slate-400 hover:text-teal-400 hover:bg-slate-100 ease-linear transition-all"
+                    class="bg-white rounded-md p-2 inline-flex items-center justify-center text-slate-400 hover:text-primary hover:bg-slate-100 ease-linear transition-all"
                   >
                     <span class="sr-only">Close menu</span>
                     <XIcon class="h-6 w-6" aria-hidden="true" />
@@ -66,7 +66,7 @@
                   v-for="item in navigation"
                   :key="item.name"
                   :href="item.href"
-                  class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-teal-400 hover:bg-slate-50 transition-all ease-linear"
+                  class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50 transition-all ease-linear"
                   >{{ item.name }}</a
                 >
               </div>
