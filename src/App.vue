@@ -11,7 +11,13 @@
   color: #2c3e50;
 }
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "CeraBlack", sans-serif;
+}
+h2 {
+  font-family: "CeraBold", sans-serif;
+}
+h3 {
+  font-family: "CeraRegular", sans-serif;
 }
 @font-face {
   font-family: "CeraBlack";

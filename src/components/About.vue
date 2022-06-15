@@ -1,5 +1,7 @@
 <template>
-  <div class="px-4 sm:px-6 lg:px-8 overflow-hidden py-8">
+  <div
+    class="px-4 sm:px-6 lg:px-8 overflow-hidden py-8 mt-8 lg:my-8 bg-slate-50"
+  >
     <div class="w-full mx-auto">
       <div class="relative z-10 mb-8 md:mb-2 md:px-6">
         <div class="text-center lg:max-w-none">
@@ -8,19 +10,18 @@
           >
             About
           </h2>
-          <p
-            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+
+          <h1
+            class="mt-2 text-3xl leading-8 uppercase tracking-tight text-slate-600 sm:text-4xl"
           >
             More about me
-          </p>
+          </h1>
         </div>
       </div>
       <div class="relative">
         <div class="relative md:p-6">
           <div class="lg:grid lg:grid-cols-2 lg:gap-6">
-            <div
-              class="prose prose-lg text-center text-gray-500 lg:max-w-none pr-8"
-            >
+            <div class="prose text-center text-gray-500 lg:max-w-none pr-8">
               <p>
                 Hello! My name is Brandon & I work as a front-end developer. My
                 passion for web development started back in late 2016. It
@@ -29,17 +30,19 @@
               </p>
 
               <p>
-                I started out learning basic HTML, CSS & Javascript. I now enjoy
-                using VueJS on most of my projects. I also have some back-end
-                experience as well with MySQL and PHP. My recent projects I've
-                enjoyed using Backend-as-a-Service providers such as Firebase
-                and Supabase.
+                I started out learning basic HTML, CSS & Javascript and
+                transitioned to front-end frameworks such as React & Vue. I
+                really love the simplicity of Vue and have used it on all of my
+                recent projects. I also have some back-end experience as well
+                with MySQL and PHP. Backend-as-a-Service providers such as
+                Firebase and Supabase are another of my favorites.
               </p>
             </div>
-            <div class="mt-6 prose text-center prose-lg text-gray-500 lg:mt-0">
+            <div class="mt-6 prose text-center text-gray-500 lg:mt-0">
               <p>
                 In my freetime I enjoy video-games, movies, golf and hanging out
-                with my girlfriend & our two dogs! 😁
+                with my girlfriend & our two dogs! I'm also obesessed with
+                anything tech related! 😁
               </p>
               <p>
                 Some of the technologies/libraries I've been working with

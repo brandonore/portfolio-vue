@@ -1,4 +1,4 @@
-# vue-tailwind-starter
+# Brandon Ore
 
 ## Project setup
 ```
