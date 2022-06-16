@@ -11,10 +11,14 @@ import { faLink } from "@fortawesome/pro-solid-svg-icons";
 import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+import moshaToast from "mosha-vue-toastify";
+import "mosha-vue-toastify/dist/style.css";
+
 library.add(faGithubAlt, faLink, faImage, faFileCode, faRectangleCode);
 
 createApp(App)
   .use(router)
   .use(VueEasyLightbox)
+  .use(moshaToast)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");

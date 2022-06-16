@@ -18,15 +18,8 @@
           I primarily build front-end & focus on clean, user-friendly
           experiences. Scroll down to see my work or feel free to contact me!
         </p>
-        <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-          <div class="rounded-md">
-            <a
-              href="#"
-              class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:opacity-75 transition-all ease-linear md:py-4 md:text-lg md:px-10"
-            >
-              Contact
-            </a>
-          </div>
+        <div class="mt-10 sm:flex sm:justify-center lg:justify-start w-1/2">
+          <ContactBtn />
         </div>
       </div>
     </div>
@@ -41,8 +34,11 @@
 </template>
 
 <script>
+import ContactBtn from "./ContactBtn.vue";
+
 export default {
   name: "Hero",
+  components: { ContactBtn },
   data() {
     return {};
   },

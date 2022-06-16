@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/pro-duotone-svg-icons": "^6.1.1",
@@ -17,9 +18,12 @@
     "@fortawesome/vue-fontawesome": "^3.0.0",
     "@headlessui/vue": "^1.5.0",
     "@heroicons/vue": "^1.0.6",
+    "@tailwindcss/forms": "^0.5.2",
     "core-js": "^3.8.3",
+    "mosha-vue-toastify": "^1.0.23",
     "vue": "^3.2.13",
     "vue-easy-lightbox": "^1.4.1",
+    "vue-recaptcha": "^2.0.2",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {

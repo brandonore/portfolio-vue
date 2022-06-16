@@ -10,8 +10,11 @@
     <div class="max-w-[96rem] flex justify-center mx-auto mt-20">
       <Recent />
     </div>
-    <div class="max-w-[96rem] flex justify-center mx-auto mt-20 mb-96">
+    <div class="max-w-[96rem] flex justify-center mx-auto mt-20">
       <Other />
+    </div>
+    <div class="max-w-[96rem] flex justify-center mx-auto mt-20 mb-10">
+      <Contact />
     </div>
   </div>
 </template>
@@ -22,6 +25,7 @@ import About from "../components/About.vue";
 import Navbar from "../components/Navbar.vue";
 import Recent from "../components/Recent.vue";
 import Other from "../components/Other.vue";
+import Contact from "../components/Contact.vue";
 
 export default {
   name: "HomeView",
@@ -31,6 +35,7 @@ export default {
     Navbar,
     Recent,
     Other,
+    Contact,
   },
   data() {
     return {};
