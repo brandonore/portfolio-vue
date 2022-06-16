@@ -16,6 +16,7 @@
           </h1>
           <Chibits />
           <Stacks />
+          <Marshmallow />
           <Aqua />
         </div>
       </div>
@@ -26,13 +27,14 @@
 <script>
 import Chibits from "./Chibits.vue";
 import Stacks from "./Stacks.vue";
+import Marshmallow from "./Marshmallow.vue";
 import Aqua from "./Aqua.vue";
 export default {
   name: "Recent",
   data() {
     return {};
   },
-  components: { Chibits, Stacks, Aqua },
+  components: { Chibits, Stacks, Marshmallow, Aqua },
 };
 </script>
 

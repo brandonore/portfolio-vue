@@ -51,12 +51,12 @@
               <div class="flex justify-around">
                 <ul role="list">
                   <li>Vue.js</li>
-                  <li>Javascript (ES6+)</li>
-                  <li>HTML & CSS3</li>
-                </ul>
-                <ul role="list">
                   <li>Supabase</li>
                   <li>Web3.js</li>
+                </ul>
+                <ul role="list">
+                  <li>Quasar</li>
+                  <li>Vuetify</li>
                   <li>Tailwind CSS</li>
                 </ul>
               </div>

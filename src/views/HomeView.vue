@@ -4,11 +4,14 @@
     <div class="hero max-w-[96rem] flex justify-center mx-auto">
       <Hero />
     </div>
-    <div class="max-w-[96rem] flex justify-center mx-auto my-16">
+    <div class="max-w-[96rem] flex justify-center mx-auto mt-8">
       <About />
     </div>
-    <div class="max-w-[96rem] flex justify-center mx-auto my-16">
+    <div class="max-w-[96rem] flex justify-center mx-auto mt-20">
       <Recent />
+    </div>
+    <div class="max-w-[96rem] flex justify-center mx-auto mt-20 mb-96">
+      <Other />
     </div>
   </div>
 </template>
@@ -18,6 +21,7 @@ import Hero from "@/components/Hero";
 import About from "../components/About.vue";
 import Navbar from "../components/Navbar.vue";
 import Recent from "../components/Recent.vue";
+import Other from "../components/Other.vue";
 
 export default {
   name: "HomeView",
@@ -26,6 +30,7 @@ export default {
     About,
     Navbar,
     Recent,
+    Other,
   },
   data() {
     return {};
@@ -35,8 +40,6 @@ export default {
 
 <style>
 .hero {
-  /* border: 2px solid blue; */
-  /* height: 100vh; */
   position: relative;
 }
 

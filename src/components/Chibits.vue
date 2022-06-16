@@ -1,12 +1,12 @@
 <template>
   <div class="relative">
     <div class="xl:mx-auto xl:container">
-      <div class="px-4 lg:px-12 md:py-14 py-8">
+      <div class="px-4 lg:px-12 md:py-14 pt-8">
         <div class="flex flex-col-reverse lg:flex-row items-center">
           <div class="w-full mt-6 xl:mt-0">
             <img
               @click="showImgs"
-              src="@/assets/chibits/staking-dashboard-lg.png"
+              src="@/assets/chibits/staking-dashboard.png"
               alt="dashboard"
               class="cursor-pointer xl:h-3/4 object-cover object-center w-full"
             />
@@ -37,7 +37,7 @@
               Supabase.
             </p>
             <h2 class="text-sm text-primary pb-6">
-              Vue - Web3 - Solidity - Supabase - Tailwind
+              Vue - Web3 - Solidity - Supabase - Tailwind - File Upload
             </h2>
             <div class="flex items-center justify-center">
               <a href="https://google.com">
@@ -77,15 +77,27 @@ export default {
       this.imgs = [
         {
           title: "Staking dashboard",
-          src: require("../assets/chibits/staking-dashboard-lg.png"),
+          src: require("../assets/chibits/staking-dashboard.png"),
+        },
+        {
+          title: "Staking dashboard dark mode",
+          src: require("../assets/chibits/staking-dashboard-dark.png"),
         },
         {
           title: "Wallet disconnect",
           src: require("../assets/chibits/staking-disconnect.png"),
         },
         {
+          title: "Unstaked NFTs",
+          src: require("../assets/chibits/unstaked.png"),
+        },
+        {
           title: "Marketplace",
           src: require("../assets/chibits/marketplace.png"),
+        },
+        {
+          title: "Marketplace dark mode",
+          src: require("../assets/chibits/dark-mode.png"),
         },
         { title: "Mint page", src: require("../assets/chibits/mint-page.png") },
         {
@@ -100,7 +112,6 @@ export default {
           title: "Add new marketplace item",
           src: require("../assets/chibits/add-item.png"),
         },
-        { title: "Dark mode", src: require("../assets/chibits/dark-mode.png") },
       ];
 
       this.show();
