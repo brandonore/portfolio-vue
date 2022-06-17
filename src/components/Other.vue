@@ -16,12 +16,12 @@
           >
             Other projects
           </h1>
-          <p class="text-xl text-slate-500">
+          <p class="md: p-6 text-xl text-slate-500">
             Here are some personal projects that I've bulit in the past.
           </p>
         </div>
       </div>
-      <div class="pt-12">
+      <div class="pt-8">
         <div class="mx-auto px-4 max-w-7xl">
           <div class="space-y-12">
             <ul

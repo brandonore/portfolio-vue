@@ -1,8 +1,8 @@
 <template>
-  <div class="px-4 lg:px-12 overflow-hidden lg:my-8">
+  <div class="px-8 lg:px-12 overflow-hidden lg:my-8">
     <div class="w-full mx-auto">
       <div class="relative z-10 mb-8 md:mb-2">
-        <div class="text-left lg:max-w-none">
+        <div class="text-center lg:max-w-none">
           <h2
             class="leading-6 text-primary font-semibold tracking-wide uppercase"
           >
@@ -14,6 +14,8 @@
           >
             Recent Projects
           </h1>
+        </div>
+        <div class="text-left">
           <Chibits />
           <Stacks />
           <Marshmallow />

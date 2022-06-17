@@ -34,7 +34,7 @@
               rooms, plants, light cycles, plant stages & daily tasks.<br /><br />
               Includes email sign-up, authentication & database via firebase.
             </p>
-            <h2 class="text-sm text-primary pb-6">
+            <h2 class="text-sm text-center text-primary pb-6">
               Vue - Quasar - Firebase - PWA - Camera - Geolocation
             </h2>
           </div>

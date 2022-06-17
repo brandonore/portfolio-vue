@@ -34,7 +34,7 @@
               Includes email sign-up, authentication, database & cloud functions
               via firebase.
             </p>
-            <h2 class="text-sm text-primary pb-6">
+            <h2 class="text-sm text-center text-primary pb-6">
               Vue - Quasar - Firebase - Vuex - Cloud Functions
             </h2>
           </div>

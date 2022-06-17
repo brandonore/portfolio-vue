@@ -27,7 +27,7 @@
             >
               Stacks
             </h3>
-            <p class="prose text-md text-left text-gray-600 pb-6">
+            <p class="prose text-md text-gray-600 pb-6">
               CRUD style inventory management system for concentrate companies.
               Easily keep track of shops, trim on hand, current runs & packaging
               status. Includes many fields for weight, METRC tags, dates,
@@ -35,7 +35,7 @@
               Email sign-up & authentication, database, & hosting all via google
               firebase.
             </p>
-            <h2 class="text-sm text-primary pb-6">
+            <h2 class="text-sm text-center text-primary pb-6">
               Vue - Vuex - Firebase - Vuetify - Responsive
             </h2>
             <div class="flex items-center justify-center">

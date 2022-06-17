@@ -36,7 +36,7 @@
               the marketplace. Email authentication and storage are through
               Supabase.
             </p>
-            <h2 class="text-sm text-primary pb-6">
+            <h2 class="text-sm text-center text-primary pb-6">
               Vue - Web3 - Solidity - Supabase - Tailwind - File Upload
             </h2>
             <div class="flex items-center justify-center">

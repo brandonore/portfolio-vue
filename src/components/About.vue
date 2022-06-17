@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="px-4 sm:px-6 lg:px-8 overflow-hidden py-8 mt-8 lg:my-8 bg-slate-50"
-  >
+  <div class="px-4 sm:px-6 lg:px-8 overflow-hidden py-10 bg-slate-50">
     <div class="w-full mx-auto">
       <div class="relative z-10 mb-8 md:mb-2 md:px-6">
         <div class="text-center lg:max-w-none">
