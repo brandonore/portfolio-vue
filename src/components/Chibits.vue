@@ -29,9 +29,9 @@
             </h3>
             <p class="prose text-md text-gray-600 pb-6">
               Fully featured NFT Dapp with minting, staking dashboard &
-              marketplace. NFT's are fully stakeable and earn rewards while
-              staked. Includes staking bonuses. Rewards are spendable in the
-              marketplace.<br /><br />
+              marketplace. NFTs are fully stakeable and earn rewards in the form
+              of ERC20 tokens while staked. Includes staking bonuses. Rewards
+              are spendable in the marketplace.<br /><br />
               Also includes an admin dashboard for adding & removing items from
               the marketplace. Email authentication and storage are through
               Supabase.
@@ -40,14 +40,14 @@
               Vue - Web3 - Solidity - Supabase - Tailwind - File Upload
             </h2>
             <div class="flex items-center justify-center">
-              <a href="https://google.com">
+              <a href="https://github.com/brandonore/chibits">
                 <font-awesome-icon
                   :icon="['fab', 'fa-github-alt']"
                   class="text-2xl mr-5 text-slate-600 hover:text-primary ease-linear transition-all cursor-pointer"
                   aria-hidden="true"
                 />
               </a>
-              <a href="">
+              <a href="https://quiet-bubblegum-aace40.netlify.app/">
                 <font-awesome-icon
                   :icon="['fas', 'fa-link']"
                   class="text-2xl text-slate-600 hover:text-primary ease-linear transition-all cursor-pointer"

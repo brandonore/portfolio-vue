@@ -19,14 +19,14 @@
         </div>
       </div>
       <div class="space-y-2">
-        <div class="space-y-1">
+        <div class="space-y-1 text-center">
           <h3 class="text-2xl text-slate-600">{{ project.title }}</h3>
           <p class="text-md text-slate-600">
             {{ project.desc }}
           </p>
         </div>
         <div class="text-md">
-          <p class="text-primary">
+          <p class="text-primary text-center">
             {{ project.tech }}
           </p>
         </div>

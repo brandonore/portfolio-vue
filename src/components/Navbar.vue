@@ -24,14 +24,25 @@
             <div class="text-left logo-container">
               <img class="w-12 logo" src="@/assets/logo.png" alt="" />
             </div>
-            <div class="hidden md:flex md:space-x-10">
+            <div class="hidden md:flex md:items-center md:space-x-10">
               <a
                 v-for="item in navigation"
                 :key="item.name"
+                v-scroll-to="{
+                  el: item.href,
+                  duration: 400,
+                }"
                 :href="item.href"
-                class="font-medium text-slate-500 hover:text-primary ease-linear transition-all"
+                class="cursor-pointer font-medium text-slate-500 hover:text-primary ease-linear transition-all"
                 >{{ item.name }}</a
               >
+              <a
+                href="./resume.pdf"
+                target="_blank"
+                class="px-8 py-2 border-2 border-primary hover:border-transparent text-base font-medium rounded-md text-primary hover:text-white hover:bg-primary transition-all ease-linear"
+              >
+                Resume
+              </a>
             </div>
           </nav>
         </div>
@@ -61,14 +72,25 @@
                   </PopoverButton>
                 </div>
               </div>
-              <div class="px-2 pt-2 pb-3">
+              <div class="px-2 pt-2 pb-6">
                 <a
                   v-for="item in navigation"
                   :key="item.name"
+                  v-scroll-to="{
+                    el: item.href,
+                    duration: 400,
+                  }"
                   :href="item.href"
-                  class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50 transition-all ease-linear"
+                  class="cursor-pointer block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-primary hover:bg-slate-50 transition-all ease-linear"
                   >{{ item.name }}</a
                 >
+                <a
+                  href="./resume.pdf"
+                  target="_blank"
+                  class="block px-3 py-2 hover:border-transparent text-base font-medium rounded-md text-primary transition-all ease-linear"
+                >
+                  Resume
+                </a>
               </div>
             </div>
           </PopoverPanel>
@@ -94,14 +116,15 @@ export default {
   data() {
     return {
       navigation: [
-        { name: "Home", href: "#" },
-        { name: "About", href: "#" },
-        { name: "Recent", href: "#" },
-        { name: "Other", href: "#" },
-        { name: "Contact", href: "#" },
+        { name: "Home", href: "home" },
+        { name: "About", href: "about" },
+        { name: "Recent", href: "recent" },
+        { name: "Other", href: "other" },
+        { name: "Contact", href: "contact" },
       ],
     };
   },
+  methods: {},
 };
 </script>
 

@@ -21,10 +21,14 @@
     "@tailwindcss/forms": "^0.5.2",
     "core-js": "^3.8.3",
     "mosha-vue-toastify": "^1.0.23",
+    "query-string": "^7.1.1",
+    "querystring": "^0.2.1",
     "vue": "^3.2.13",
     "vue-easy-lightbox": "^1.4.1",
     "vue-recaptcha": "^2.0.2",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "vue-scrollto": "^2.20.0",
+    "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",

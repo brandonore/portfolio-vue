@@ -33,17 +33,18 @@
                 really love the simplicity of Vue and have used it on all of my
                 recent projects. I also have some back-end experience as well
                 with MySQL and PHP. Backend-as-a-Service providers such as
-                Firebase and Supabase are another of my favorites.
+                Firebase and Supabase are another of my favorite technologies to
+                use.
               </p>
             </div>
             <div class="mt-6 prose text-center text-gray-500 lg:mt-0">
               <p>
-                In my freetime I enjoy video-games, movies, golf and hanging out
-                with my girlfriend & our two dogs! I'm also obesessed with
-                anything tech related! 😁
+                In my freetime I enjoy video-games, anime, movies, golf and
+                hanging out with my girlfriend & our two dogs! I'm also
+                obesessed with anything tech related! 😁
               </p>
               <p>
-                Some of the technologies/libraries I've been working with
+                Some of the technologies & libraries I've been working with
                 recently are:
               </p>
               <div class="flex justify-around">

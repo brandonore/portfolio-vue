@@ -23,11 +23,11 @@
               <p>
                 I'm currently looking for new opportunities so feel free to send
                 me a message! I'll get back to you as soon as possible. You can
-                use the contact form or just send me an email
+                use the contact form or send me an
                 <a
                   class="text-primary no-underline"
                   href="mailto:brandonore@gmail.com"
-                  >here</a
+                  >email</a
                 >.
               </p>
             </div>

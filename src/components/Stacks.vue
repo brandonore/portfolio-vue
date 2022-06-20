@@ -39,7 +39,7 @@
               Vue - Vuex - Firebase - Vuetify - Responsive
             </h2>
             <div class="flex items-center justify-center">
-              <a href="https://google.com">
+              <a href="https://github.com/brandonore/stacks">
                 <font-awesome-icon
                   :icon="['fab', 'fa-github-alt']"
                   class="text-2xl mr-5 text-slate-600 hover:text-primary ease-linear transition-all cursor-pointer"

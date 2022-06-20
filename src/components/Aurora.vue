@@ -19,14 +19,14 @@
         </div>
       </div>
       <div class="space-y-2">
-        <div class="space-y-1">
+        <div class="space-y-1 text-center">
           <h3 class="text-2xl text-slate-600">{{ project.title }}</h3>
           <p class="text-md text-slate-600">
             {{ project.desc }}
           </p>
         </div>
         <div class="text-md">
-          <p class="text-primary">
+          <p class="text-primary text-center">
             {{ project.tech }}
           </p>
         </div>
@@ -65,7 +65,7 @@ export default {
       imgs: "",
       project: {
         title: "Aurora",
-        desc: "A minimal desktop crypto tracker built with JS and Electron. Data feed from CoinMarketCap",
+        desc: "A minimal desktop crypto tracker built with JS and Electron. Data feed from CoinMarketCap.",
         github: "https://github.com/brandonore/aurora",
         siteUrl: "",
         tech: "Electron - JS - Node - Windows - macOS",
