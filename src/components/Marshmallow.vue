@@ -2,7 +2,7 @@
   <div class="relative">
     <div class="xl:mx-auto xl:container">
       <div class="px-4 lg:px-12 md:py-14 pt-8">
-        <div class="flex flex-col-reverse lg:flex-row items-center">
+        <div class="flex flex-col-reverse lg:flex-row-reverse items-center">
           <div class="w-full mt-6 xl:mt-0">
             <img
               @click="showImgs"
@@ -20,7 +20,7 @@
               @hide="hide"
             ></vue-easy-lightbox>
           </div>
-          <div class="lg:w-1/2 lg:pl-12">
+          <div class="lg:w-1/2 lg:pr-12">
             <h2 class="text-md leading-none text-primary pb-2">Featured</h2>
             <h3
               class="md:text-3xl lg:text-4xl text-2xl font-bold lg:leading-9 text-slate-600 lg:pb-6 md:pb-4 pb-2"

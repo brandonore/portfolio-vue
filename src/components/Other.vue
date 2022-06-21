@@ -1,6 +1,6 @@
 <template>
   <div
-    class="px-4 w-full sm:px-6 lg:px-8 overflow-hidden pt-8 pb-20 mt-8 lg:my-8 bg-slate-50"
+    class="px-4 w-full sm:px-6 lg:px-8 overflow-hidden pt-14 pb-20 bg-slate-50"
   >
     <div class="w-full mx-auto">
       <div class="relative z-10 mb-8 md:mb-2 md:px-6">
@@ -17,7 +17,7 @@
             Other projects
           </h1>
           <p class="md: p-6 text-xl text-slate-500">
-            Here are some personal projects that I've bulit in the past.
+            Here are some personal projects that I've built in the past.
           </p>
         </div>
       </div>

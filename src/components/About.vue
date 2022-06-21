@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 sm:px-6 lg:px-8 overflow-hidden py-10 bg-slate-50">
+  <div class="px-4 sm:px-6 lg:px-8 overflow-hidden py-14 bg-slate-50">
     <div class="w-full mx-auto">
       <div class="relative z-10 mb-8 md:mb-2 md:px-6">
         <div class="text-center lg:max-w-none">
@@ -39,9 +39,9 @@
             </div>
             <div class="mt-6 prose text-center text-gray-500 lg:mt-0">
               <p>
-                In my freetime I enjoy video-games, anime, movies, golf and
-                hanging out with my girlfriend & our two dogs! I'm also
-                obesessed with anything tech related! 😁
+                In my free time I enjoy anime, video-games, FX & crypto trading,
+                movies, golf and hanging out with my girlfriend & our two dogs!
+                I'm also obsessed with anything tech related! 😁
               </p>
               <p>
                 Some of the technologies & libraries I've been working with

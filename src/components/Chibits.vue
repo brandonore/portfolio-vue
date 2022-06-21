@@ -29,9 +29,9 @@
             </h3>
             <p class="prose text-md text-gray-600 pb-6">
               Fully featured NFT Dapp with minting, staking dashboard &
-              marketplace. NFTs are fully stakeable and earn rewards in the form
-              of ERC20 tokens while staked. Includes staking bonuses. Rewards
-              are spendable in the marketplace.<br /><br />
+              marketplace. NFTs are fully stake-able and earn rewards in the
+              form of ERC20 tokens while staked. Includes staking bonuses.
+              Rewards are spendable in the marketplace.<br /><br />
               Also includes an admin dashboard for adding & removing items from
               the marketplace. Email authentication and storage are through
               Supabase.
