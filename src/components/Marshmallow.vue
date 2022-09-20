@@ -30,12 +30,12 @@
             <p class="prose text-md text-gray-600 pb-6">
               Trade manager & invoice generator built with Quasar. Keep track of
               client trades and details as well as generate invoices for clients
-              based on commission.<br /><br />
-              Includes email sign-up, authentication, database & cloud functions
-              via firebase.
+              based on trade profits.<br /><br />
+              Data visualization with ApexCharts. Includes email sign-up,
+              authentication, database & cloud functions via firebase.
             </p>
             <h2 class="text-sm text-center text-primary pb-6">
-              Vue - Quasar - Firebase - Vuex - Cloud Functions
+              Vue - Quasar - Firebase - Vuex - ApexCharts - Cloud Functions
             </h2>
           </div>
         </div>

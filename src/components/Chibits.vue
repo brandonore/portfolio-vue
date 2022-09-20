@@ -6,7 +6,7 @@
           <div class="w-full mt-6 xl:mt-0">
             <img
               @click="showImgs"
-              src="@/assets/chibits/staking-dashboard.png"
+              src="@/assets/chibits/c2.png"
               alt="dashboard"
               class="cursor-pointer xl:h-3/4 object-cover object-center w-full"
             />
@@ -35,6 +35,11 @@
               Also includes an admin dashboard for adding & removing items from
               the marketplace. Email authentication and storage are through
               Supabase.
+              <span class="text-yellow-500 font-bold"
+                >Click the link below for a demo build.</span
+              ><span class="text-rose-500 font-bold">
+                The github repo is an old outdated build.</span
+              >
             </p>
             <h2 class="text-sm text-center text-primary pb-6">
               Vue - Web3 - Solidity - Supabase - Tailwind - File Upload
@@ -47,7 +52,7 @@
                   aria-hidden="true"
                 />
               </a>
-              <a href="https://quiet-bubblegum-aace40.netlify.app/">
+              <a href="https://magenta-unicorn-4e395a.netlify.app/">
                 <font-awesome-icon
                   :icon="['fas', 'fa-link']"
                   class="text-2xl text-slate-600 hover:text-primary ease-linear transition-all cursor-pointer"
@@ -77,40 +82,32 @@ export default {
       this.imgs = [
         {
           title: "Staking dashboard",
-          src: require("../assets/chibits/staking-dashboard.png"),
+          src: require("../assets/chibits/c2.png"),
         },
         {
-          title: "Staking dashboard dark mode",
-          src: require("../assets/chibits/staking-dashboard-dark.png"),
+          title: "Staking dashboard disconnected",
+          src: require("../assets/chibits/c1.png"),
         },
         {
-          title: "Wallet disconnect",
-          src: require("../assets/chibits/staking-disconnect.png"),
+          title: "Marketplace Home",
+          src: require("../assets/chibits/c3.png"),
         },
         {
-          title: "Unstaked NFTs",
-          src: require("../assets/chibits/unstaked.png"),
+          title: "Marketplace Favorites",
+          src: require("../assets/chibits/c4.png"),
         },
         {
-          title: "Marketplace",
-          src: require("../assets/chibits/marketplace.png"),
+          title: "Marketplace Purchased Items",
+          src: require("../assets/chibits/c5.png"),
         },
         {
-          title: "Marketplace dark mode",
-          src: require("../assets/chibits/dark-mode.png"),
+          title: "Marketplace Item Wallet List",
+          src: require("../assets/chibits/c8.png"),
         },
-        { title: "Mint page", src: require("../assets/chibits/mint-page.png") },
+        { title: "Admin Page", src: require("../assets/chibits/c6.png") },
         {
-          title: "Admin login",
-          src: require("../assets/chibits/admin-login.png"),
-        },
-        {
-          title: "Admin dashboard",
-          src: require("../assets/chibits/admin.png"),
-        },
-        {
-          title: "Add new marketplace item",
-          src: require("../assets/chibits/add-item.png"),
+          title: "Mint Page",
+          src: require("../assets/chibits/c7.png"),
         },
       ];
 

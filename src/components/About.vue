@@ -31,10 +31,10 @@
                 I started out learning basic HTML, CSS & Javascript and
                 transitioned to front-end frameworks such as React & Vue. I
                 really love the simplicity of Vue and have used it on all of my
-                recent projects. I also have some back-end experience as well
+                recent projects. I have a little back-end experience as well
                 with MySQL and PHP. Backend-as-a-Service providers such as
-                Firebase and Supabase are another of my favorite technologies to
-                use.
+                Firebase and Supabase are my favorite technologies to use for
+                back-end.
               </p>
             </div>
             <div class="mt-6 prose text-center text-gray-500 lg:mt-0">
@@ -50,13 +50,13 @@
               <div class="flex justify-around">
                 <ul role="list">
                   <li>Vue.js</li>
-                  <li>Supabase</li>
-                  <li>Web3.js</li>
+                  <li>Firebase 9</li>
+                  <li>Pinia</li>
                 </ul>
                 <ul role="list">
                   <li>Quasar</li>
-                  <li>Vuetify</li>
                   <li>Tailwind CSS</li>
+                  <li>Web3.js</li>
                 </ul>
               </div>
             </div>
