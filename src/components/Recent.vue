@@ -16,6 +16,7 @@
           </h1>
         </div>
         <div class="text-left">
+          <Bentobook />
           <Chibits />
           <Marshmallow />
           <Stacks />
@@ -31,12 +32,14 @@ import Chibits from "./Chibits.vue";
 import Stacks from "./Stacks.vue";
 import Marshmallow from "./Marshmallow.vue";
 import Aqua from "./Aqua.vue";
+import Bentobook from "./Bentobook.vue";
+
 export default {
   name: "Recent",
   data() {
     return {};
   },
-  components: { Chibits, Stacks, Marshmallow, Aqua },
+  components: { Chibits, Stacks, Marshmallow, Aqua, Bentobook },
 };
 </script>
 
