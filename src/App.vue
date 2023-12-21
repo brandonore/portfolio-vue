@@ -4,44 +4,49 @@
 
 <style>
 #app {
-  font-family: "CeraRegular", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 h1 {
-  font-family: "CeraBlack", sans-serif;
+  font-family: "Roboto-Black", sans-serif;
 }
 h2 {
-  font-family: "CeraBold", sans-serif;
+  font-family: "Roboto-Bold", sans-serif;
 }
 h3 {
-  font-family: "CeraRegular", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 @font-face {
-  font-family: "CeraBlack";
-  src: local("CeraBlack"), url(./fonts/Cera/CeraBlack.otf) format("truetype");
+  font-family: "Roboto-Black";
+  src: local("Roboto-Black"),
+    url(./fonts/Roboto/Roboto-Black.ttf) format("truetype");
 }
 @font-face {
-  font-family: "CeraBold";
-  src: local("CeraBold"), url(./fonts/Cera/CeraBold.otf) format("truetype");
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"),
+    url(./fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
 @font-face {
-  font-family: "CeraLight";
-  src: local("CeraLight"), url(./fonts/Cera/CeraLight.otf) format("truetype");
+  font-family: "Roboto-Light";
+  src: local("Roboto-Light"),
+    url(./fonts/Roboto/Roboto-Light.ttf) format("truetype");
 }
 @font-face {
-  font-family: "CeraMedium";
-  src: local("CeraMedium"), url(./fonts/Cera/CeraMedium.otf) format("truetype");
+  font-family: "Roboto-Medium";
+  src: local("Roboto-Medium"),
+    url(./fonts/Roboto/Roboto-Medium.ttf) format("truetype");
 }
 @font-face {
-  font-family: "CeraRegular";
-  src: local("CeraRegular"),
-    url(./fonts/Cera/CeraRegular.otf) format("truetype");
+  font-family: "Roboto-Regular";
+  src: local("Roboto-Regular"),
+    url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: "CeraThin";
-  src: local("CeraThin"), url(./fonts/Cera/CeraThin.otf) format("truetype");
+  font-family: "Roboto-Thin";
+  src: local("Roboto-Thin"),
+    url(./fonts/Roboto/Roboto-Thin.ttf) format("truetype");
 }
 </style>
