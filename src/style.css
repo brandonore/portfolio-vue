@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+}
+
+/* Headings and product names */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: swap;
+  src: url('/fonts/figtree-latin.woff2') format('woff2');
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-secondary text-primary font-sans antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .app-icon {
+    flex: none;
+    overflow: hidden;
+    border-radius: 22%;
+  }
+
+  .app-icon img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .phone {
+    overflow: hidden;
+    border: 8px solid #131313;
+    border-radius: 2.1rem;
+    background: #131313;
+  }
+
+  .phone img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  /* A shipped product: bright green with a soft halo */
+  .live-dot {
+    @apply flex-none w-2.5 h-2.5 rounded-full bg-live ring-4 ring-live/25;
+  }
+
+  /* A store button: the store's mark, then its name */
+  .store-link {
+    @apply inline-flex items-center gap-2 pl-3.5 pr-4 py-2 rounded-full;
+  }
+
+  .store-link svg {
+    @apply w-[18px] h-[18px];
+  }
+}

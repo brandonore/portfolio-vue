@@ -1,48 +1,25 @@
 {
-  "name": "portfolio-vue",
-  "version": "0.1.0",
+  "name": "brandonore.io",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.6.2",
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/pro-duotone-svg-icons": "^6.1.1",
-    "@fortawesome/pro-light-svg-icons": "^6.1.1",
-    "@fortawesome/pro-regular-svg-icons": "^6.1.1",
-    "@fortawesome/pro-solid-svg-icons": "^6.1.1",
-    "@fortawesome/pro-thin-svg-icons": "^6.1.1",
-    "@fortawesome/vue-fontawesome": "^3.0.0",
-    "@headlessui/vue": "^1.5.0",
-    "@heroicons/vue": "^1.0.6",
-    "@tailwindcss/forms": "^0.5.2",
-    "core-js": "^3.8.3",
-    "mosha-vue-toastify": "^1.0.23",
-    "query-string": "^7.1.1",
-    "querystring": "^0.2.1",
-    "vue": "^3.2.13",
-    "vue-easy-lightbox": "^1.4.1",
-    "vue-recaptcha": "^2.0.2",
-    "vue-router": "^4.0.3",
-    "vue-scrollto": "^2.20.0",
-    "vue3-smooth-scroll": "^0.8.1"
+    "vue": "^3.5.17"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.2",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24"
+    "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.0.4",
+    "vite-ssg": "^28.3.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+  "engines": {
+    "node": ">=20.19"
+  }
 }
