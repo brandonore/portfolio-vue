@@ -4,7 +4,7 @@
     <div class="grid lg:grid-cols-12 gap-x-8 gap-y-8 px-6 sm:px-10 lg:px-14 pt-10 lg:pt-14">
       <div class="lg:col-span-7">
         <div class="flex items-center gap-4">
-          <span class="app-icon w-14 h-14 grid place-items-center bg-black font-brand text-[15px] font-bold tracking-tight text-tfd-gold" aria-hidden="true">TFD</span>
+          <span class="app-icon w-14 h-14 bg-black p-2.5"><img src="/work/futures-desk/logo.webp" alt="" width="132" height="132" class="object-contain"></span>
           <h3 class="font-brand text-[2.1rem] font-bold tracking-[-0.02em] text-tfd-gold">The Futures Desk</h3>
         </div>
         <p class="mt-6 text-xl leading-snug font-medium text-balance">A futures trading firm, and the platform its traders work in.</p>
@@ -44,20 +44,28 @@
       </li>
     </ol>
 
-    <!-- Three screens I built, layered: the reports in a browser window, one trade opened, and the yearly recap -->
-    <div class="relative mt-14 mx-6 sm:mx-10 lg:mx-14 aspect-[4/3.5] sm:aspect-[16/9]">
-      <div class="absolute -inset-x-6 sm:-inset-x-14 -top-14 h-80 bg-[radial-gradient(48%_58%_at_60%_45%,rgba(204,186,131,0.17),transparent)]" aria-hidden="true"></div>
-      <div class="absolute left-0 sm:left-[5%] top-0 w-[185%] sm:w-[84%] overflow-hidden rounded-xl border border-white/15 bg-tfd-bezel shadow-[0_24px_60px_rgba(0,0,0,0.55)]">
-        <div class="flex items-center gap-1.5 h-8 sm:h-9 px-3.5" aria-hidden="true">
-          <span class="w-2.5 h-2.5 rounded-full bg-white/20"></span>
-          <span class="w-2.5 h-2.5 rounded-full bg-white/20"></span>
-          <span class="w-2.5 h-2.5 rounded-full bg-white/20"></span>
-          <span class="ml-3 px-3 py-0.5 rounded-full bg-black/40 text-[11px] sm:text-xs text-white/60">members.thefuturesdesk.com</span>
+    <!-- Three screens I built. The reports page is the big one, running off the room's right edge.
+         On a wide screen the other two are shown whole and staggered over its lower corners: the yearly recap over the
+         sidebar, one opened trade over the right-hand column, so the score and the chart stay clear.
+         On smaller screens they sit side by side under it. -->
+    <div class="relative mt-14 ml-6 sm:ml-10 lg:ml-14 mb-10 lg:mb-14 xl:aspect-[1.2086/1]">
+      <div class="absolute -left-6 sm:-left-14 right-0 -top-14 h-80 bg-[radial-gradient(48%_58%_at_60%_45%,rgba(204,186,131,0.17),transparent)]" aria-hidden="true"></div>
+      <div class="relative xl:absolute xl:inset-x-0 xl:top-0 overflow-hidden aspect-[4/3.2] sm:aspect-[1.575/1] xl:aspect-[1.335/1]">
+        <div class="absolute left-0 xl:left-[4%] top-0 w-[185%] sm:w-[105%] overflow-hidden rounded-xl border border-white/15 bg-tfd-bezel">
+          <div class="flex items-center gap-1.5 h-8 sm:h-9 px-3.5" aria-hidden="true">
+            <span class="w-2.5 h-2.5 rounded-full bg-white/20"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-white/20"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-white/20"></span>
+            <span class="ml-3 px-3 py-0.5 rounded-full bg-black/40 text-[11px] sm:text-xs text-white/60">beta.thefuturesdesk.com</span>
+          </div>
+          <img src="/work/futures-desk/reports.webp" alt="The reports overview of The Futures Desk: a score for the trader, profit factor, cumulative profit and loss, win rate, drawdown and consistency" width="1665" height="1142" loading="lazy" decoding="async" class="block w-full h-auto">
         </div>
-        <img src="/work/futures-desk/reports.webp" alt="The reports screen of The Futures Desk: cumulative profit and loss, win rate, streaks, drawdown and a score for the trader" width="2000" height="1372" loading="lazy" decoding="async" class="block w-full h-auto">
+        <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-tfd-night/0 to-tfd-night" aria-hidden="true"></div>
       </div>
-      <img src="/work/futures-desk/trade.webp" alt="One trade opened up: entries, exits, fees and the price chart with each fill marked" width="888" height="1400" loading="lazy" decoding="async" class="absolute right-0 top-[22%] sm:top-[24%] w-[56%] sm:w-[31%] h-auto rounded-xl border border-white/15 shadow-[0_30px_80px_rgba(0,0,0,0.8)]">
-      <img src="/work/futures-desk/recap.webp" alt="A year-in-review card for a trader" width="1108" height="1286" loading="lazy" decoding="async" class="hidden sm:block absolute left-0 -bottom-[10%] w-[23%] h-auto rounded-xl border border-white/15 shadow-[0_30px_80px_rgba(0,0,0,0.8)]">
+      <div class="relative mt-6 sm:-mt-12 pr-6 sm:pr-10 lg:pr-14 grid sm:grid-cols-[1.358fr_1fr] gap-5 sm:gap-6 items-start lg:max-w-[50rem] lg:mx-auto xl:contents">
+        <img src="/work/futures-desk/recap.webp" alt="The 2025 Trading Wrapped card, a trader's year in review: total trades, an activity grid, most traded symbols, streaks and daily goals" width="1108" height="1286" loading="lazy" decoding="async" class="w-full h-auto rounded-xl border border-white/15 shadow-[0_30px_80px_rgba(0,0,0,0.8)] xl:absolute xl:left-0 xl:top-[55.36%] xl:w-[31.9%]">
+        <img src="/work/futures-desk/trade.webp" alt="One trade opened up: entries, exits, fees and the price chart with each fill marked" width="888" height="1400" loading="lazy" decoding="async" class="w-full h-auto rounded-xl border border-white/15 shadow-[0_30px_80px_rgba(0,0,0,0.8)] sm:mt-12 xl:mt-0 xl:absolute xl:right-14 xl:top-[49.9%] xl:w-[24.2%]">
+      </div>
     </div>
   </article>
 </template>
