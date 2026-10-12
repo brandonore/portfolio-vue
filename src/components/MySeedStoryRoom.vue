@@ -53,9 +53,9 @@ onUnmounted(() => {
           <a href="https://myseedstory.co" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-full border border-myseedstory-forest/40 hover:bg-myseedstory-forest/5">myseedstory.co</a>
         </div>
       </div>
-      <div class="relative z-10 lg:col-span-6 flex justify-center lg:justify-end items-end lg:items-start gap-4 overflow-hidden lg:overflow-visible lg:-mt-44 lg:pb-14" aria-hidden="true">
+      <div class="relative z-10 lg:col-span-6 flex justify-center lg:justify-end items-end lg:items-start gap-4 overflow-hidden lg:overflow-visible lg:-mt-24 lg:pb-14" aria-hidden="true">
         <div class="phone w-[190px] sm:w-[240px] lg:w-[196px] xl:w-[240px] -mb-12 lg:mb-0"><img src="/work/myseedstory/seeds.webp" alt="" width="720" height="1558" loading="lazy" decoding="async"></div>
-        <div class="phone w-[190px] sm:w-[240px] lg:w-[196px] xl:w-[240px] mt-14 -mb-28 lg:mb-0"><img src="/work/myseedstory/calendar.webp" alt="" width="720" height="1558" loading="lazy" decoding="async"></div>
+        <div class="phone w-[190px] sm:w-[240px] lg:w-[196px] xl:w-[240px] mt-14 lg:mt-20 -mb-28 lg:mb-0"><img src="/work/myseedstory/calendar.webp" alt="" width="720" height="1558" loading="lazy" decoding="async"></div>
       </div>
     </div>
   </article>
