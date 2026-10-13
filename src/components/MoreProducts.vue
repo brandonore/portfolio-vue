@@ -31,7 +31,7 @@ const more = [
 
 <template>
   <div>
-    <h3 class="mt-14 font-brand text-2xl font-bold tracking-tight">Three more</h3>
+    <h3 class="mt-14 lg:mt-20 font-brand text-2xl font-bold tracking-tight">Three more</h3>
     <ul class="mt-5 border-t border-secondary-dark">
       <li v-for="app in more" :key="app.name" class="border-b border-secondary-dark">
         <a

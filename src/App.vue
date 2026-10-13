@@ -33,10 +33,13 @@ import SiteFooter from './components/SiteFooter.vue'
         <p class="lg:col-span-6 max-w-[34rem] leading-relaxed text-primary-light">I designed, built and released each of these myself. They are published under my own label, Pomkatsu.</p>
       </div>
 
-      <MySeedStoryRoom />
-      <CertMatrixRoom class="mt-5" />
-      <EasyTranslateRoom class="mt-5" />
-      <BcpFlowRoom class="mt-5" />
+      <!-- The gap between rooms is wider than the padding inside one, so each reads as its own block -->
+      <div class="grid gap-10 sm:gap-14 lg:gap-20">
+        <MySeedStoryRoom />
+        <CertMatrixRoom />
+        <EasyTranslateRoom />
+        <BcpFlowRoom />
+      </div>
 
       <MoreProducts />
     </section>
